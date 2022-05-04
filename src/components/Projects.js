@@ -1,7 +1,6 @@
 // Import Assets
-import uniswap from '../assets/uniswap.png';
-import compound from '../assets/compound.png';
-import aave from '../assets/aave.png';
+import ukraine from '../assets/ukraine.png';
+import metaverse from '../assets/metaverse.png';
 import rentals from '../assets/rentalcar.png'
 const Projects = () => {
     return (
@@ -12,34 +11,38 @@ const Projects = () => {
 
                 <div className="projects__card">
                     <h3>Rental Car</h3>
-                    <img src={rentals} alt="Uniswap Swap Page" />
-                    <p>This site was deployed on the polygon blockchain. I wanted to create a real life application. Even though this site is a work in progress it demonstrates the power of Web3 and the real life applications that could be put in place.
+                    <img src={rentals} alt="Rental Car picture" />
+                    <p>This site was deployed on the polygon blockchain. I wanted to create a real life application to demonstrates the power of Web3 and the real life applications that could be put in place.
+                        <p>Currently in progress....</p>
                     </p>
 
-                    <a href="https://uniswap.org/" target="_blank" className="button">Site</a>
+                    <a href="https://twilight-lab-9722.on.fleek.co/" target="_blank" className="button">Site</a>
                     <a href="https://github.com/fruitboxfred/car" target="_blank" className="button">Code</a>
                 </div>
 
                 <div className="projects__card">
-                    <h3>Compound</h3>
-                    <img src={compound} alt="Compound Landing Page" />
-                    <p>This site was deployed on the polygon blockchain. I wanted to create a real life application
+                    <h3>NFT Collection</h3>
+                    <img src={ukraine} alt="NFT Picture" />
+                    <p>This NFT collection was created and directly uploaded to Opensea.
+                        <p> All  proceeds from the sales will go directly to a charity supporting the people of Ukraine.</p>
                     </p>
+                    <p></p>
 
-                    <a href="https://compound.finance/" target="_blank" className="button">Site</a>
-                    <a href="https://github.com/compound-finance/compound-protocol" target="_blank" className="button">Code</a>
+                    <a href="https://opensea.io/collections" target="_blank" className="button">Site</a>
+                    <a href="" target="_blank" className="button">N/A</a>
+                  
                 </div>
 
                 <div className="projects__card">
-                    <h3>Aave</h3>
-                    <img src={aave} alt="Aave Landing Page" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis consectetur facere neque assumenda quasi aliquid,
-                        perferendis ratione rerum dolorem.
+                    <h3>POKELAND Metaverse</h3>
+                    <img src={metaverse} alt="Metaland picture" />
+                    <p> I'm a huge Pokemon fan I wanted to create a Metaverse allowing people to purchase land lots
+                        this site will have a map, animations and enable the connection to NFT's. 
+                    <p>This site is in the early devlopment stage and has yet to be uploaded</p>
                     </p>
 
-                    <a href="https://aave.com/" target="_blank" className="button">Site</a>
-                    <a href="https://github.com/aave/aave-v3-core" target="_blank" className="button">Code</a>
+                    <a href="" target="_blank" className="button">N/A</a>
+                    <a href="" target="_blank" className="button">N/A</a>
                 </div>
             </div>
         </section>
